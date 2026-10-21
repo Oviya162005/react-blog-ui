@@ -1,0 +1,169 @@
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background: #172554;
+  color: white;
+  text-align: center;
+  padding: 42px 20px;
+}
+
+.header h1 {
+  font-size: 38px;
+  margin: 0 0 10px;
+}
+
+.header p {
+  color: #dbeafe;
+  margin: 0;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select {
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  background: white;
+  color: #1e293b;
+}
+
+.controls input {
+  flex: 1;
+  min-width: 0;
+}
+
+.controls select {
+  min-width: 190px;
+}
+
+.results {
+  color: #64748b;
+  margin-bottom: 22px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.blog-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px #0f172a0d;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px #0f172a18;
+}
+
+.post-image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.category {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.post-content h2 {
+  font-size: 20px;
+  margin: 14px 0 10px;
+  color: #172554;
+}
+
+.description {
+  color: #64748b;
+  line-height: 1.6;
+  font-size: 14px;
+  min-height: 67px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  border-top: 1px solid #e2e8f0;
+  margin-top: 18px;
+  padding-top: 14px;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.no-results button {
+  background: #1d4ed8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 18px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 22px;
+  background: #172554;
+  color: white;
+  margin-top: 30px;
+}
+
+@media (max-width: 850px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 550px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    flex-direction: column;
+  }
+
+  .controls select {
+    width: 100%;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+}

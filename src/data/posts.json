@@ -1,0 +1,57 @@
+
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "category": "Technology",
+    "author": "Oviya",
+    "date": "2026-10-10",
+    "description": "Learn React components, props, and state to build interactive websites.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
+  },
+  {
+    "id": 2,
+    "title": "Beautiful Places to Visit",
+    "category": "Travel",
+    "author": "Rahul",
+    "date": "2026-10-12",
+    "description": "Explore beautiful destinations and discover amazing places around the world.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"
+  },
+  {
+    "id": 3,
+    "title": "Healthy Daily Habits",
+    "category": "Lifestyle",
+    "author": "Priya",
+    "date": "2026-10-14",
+    "description": "Simple daily habits can improve your health, happiness, and productivity.",
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800"
+  },
+  {
+    "id": 4,
+    "title": "Future of Artificial Intelligence",
+    "category": "Technology",
+    "author": "Oviya",
+    "date": "2026-10-16",
+    "description": "Discover how AI is transforming software development and everyday life.",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800"
+  },
+  {
+    "id": 5,
+    "title": "Weekend Travel Guide",
+    "category": "Travel",
+    "author": "Rahul",
+    "date": "2026-10-18",
+    "description": "Plan a relaxing weekend getaway with useful travel tips.",
+    "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800"
+  },
+  {
+    "id": 6,
+    "title": "Organize Your Daily Routine",
+    "category": "Lifestyle",
+    "author": "Priya",
+    "date": "2026-10-20",
+    "description": "Manage your time effectively with a simple daily routine.",
+    "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800"
+  }
+]
